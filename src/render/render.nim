@@ -1,5 +1,5 @@
 
-import ../la/La
+import ../la/LA
 
 ## Crenderer.nim
 ##
