@@ -502,7 +502,7 @@ proc executeFrame*[R](rg: var RenderGraph, renderer: var CRenderer[R]) =
 
   # Helper: get the mutable RenderResource by PResourceManager id
   template getMutRes(resId: int): ptr RenderResource =
-    let handle = getResource[ResourceHandle](rg.plugin.res_manager, resId)
+    let handle = getResource[ResourceHandle](rg.plugin.res_manager, resId).get()
     let res = get[RenderResource](rg.registry, handle)
     res
 

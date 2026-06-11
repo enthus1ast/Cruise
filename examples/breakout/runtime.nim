@@ -5,7 +5,7 @@ import ./bench_sizes
 import headless_raylib, vmath
 import ../../src/ecs/table
 import ../../src/ecs/plugins/scenetree
-import ../../src/la/LA
+import ../../src/la/La
 import ../../src/windows/windows
 import ../../src/render/render
 import ../../stdplugin/rendergraph/core

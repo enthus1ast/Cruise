@@ -4,7 +4,7 @@ import breakout/runtime
 import ../src/ecs/table
 import ../src/windows/windows
 import ../stdplugin/sdlrender/sdlrender
-import ../src/la/LA
+import ../src/la/La
 import ../stdplugin/sdlwin/sdlwin
 
 proc initGame(): Game =
