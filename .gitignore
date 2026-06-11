@@ -25,3 +25,4 @@ tests/shader/transpile
 tests/vspace/test
 src/ecs/ecs
 src/render/render
+src/audio/device
