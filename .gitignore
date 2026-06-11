@@ -3,26 +3,14 @@
 /nimcache/
 *.exe
 *.txt
-tests/ecs/test_archetypes
-tests/ecs/test_entity
-tests/ecs/test_entity_typed
-tests/ecs/test_mask
-tests/ecs/test_query
-tests/ecs/test_registry
-tests/ecs/test_scenetree
-tests/ecs/test_sparse
-tests/ecs/test_sparse_typed
-tests/ecs/test_hibitset
-tests/filesys/bench
-tests/filesys/reload
-tests/filesys/test
-tests/gpuarrays/test
-tests/graphs/graphs
-tests/plugins/data
-tests/plugins/plugins
-tests/shader/hibitsets
-tests/shader/transpile
-tests/vspace/test
+
+#Exlude everything from tests
+tests/**
+
+#but whitelist nim files
+!tests/**/*.nim
+src/Cruise
+src/audio/device
 src/ecs/ecs
 src/render/render
-src/audio/device
+stdplugin/rendergraph/core
